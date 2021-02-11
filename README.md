@@ -3,13 +3,13 @@
 
 SiriUserbot Otomatik Deployer
 
-Space Reposunu kontrol edin: https://github.com/WhoMiri/SpaceUserBot
+Siri UserBot Reposunu kontrol edin: https://github.com/ErdemBey1/SiriUserBot
 ## Kurulum
 ```sh
-git clone https://github.com/whomiri/spaceuserbot 
-cd Installer
+git clone https://github.com/ErdemBey1/siriuserbot 
+cd installer
 pip install -r requirements.txt
-python3 -m space_installer
+python3 -m siri_installer
 ```
 
 ## Geliştiriciler
