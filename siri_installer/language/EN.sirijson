@@ -13,7 +13,7 @@
             "SUCCESS_STRING": "(✓) Stringsession taken!",
             "CREATING_APP": "(i) Creating application...",
             "SUCCESS_APP": "(✓) Application creation successful!",
-            "DOWNLOADING": "(i) Downloading SpaceUserBot...",
+            "DOWNLOADING": "(i) Downloading SiriUserBot...",
             "DOWNLOADED": "(✓) SiriUserBot download successful!",
             "DEPLOYING": "(i) Initiating Deploy process... (This Process May Take Long)",
             "WRITING_CONFIG": "(i) Writing data...",
