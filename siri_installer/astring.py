@@ -75,7 +75,7 @@ class InteractiveTelegramClient(TelegramClient):
                      hata(LANG['INVALID_2FA'])
 
 def main():
-    bilgi(f"\[1] {LANG['NEW']}\n\[2] {LANG['OLD']}")
+    bilgi(f"[1] {LANG['NEW']}\n[2] {LANG['OLD']}")
             
     Sonuc = Prompt.ask(f"[bold yellow]{LANG['WHICH']}[/]", choices=["1", "2"], default="1")
 
@@ -128,7 +128,7 @@ def main():
             app = requests.post("https://my.telegram.org/apps/create", data=AppInfo, cookies=cookie).text
 
             if app == "ERROR":
-                hata("(!) Telegram avtomatik app açmağınızı blockladı. Scripti yeniden başladın.")
+                hata("(!) Telegram otomatik app açma işlemini blockladı. Scripti yeniden başladın.")
                 exit(1)
 
             bilgi(LANG['CREATED'])
