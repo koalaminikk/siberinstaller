@@ -15,7 +15,7 @@ from telethon.network import ConnectionTcpAbridged
 from telethon.utils import get_display_name
 from telethon.sessions import StringSession
 from rich.prompt import Prompt
-from .language import LANG
+from language import LANG
 from random import choice, randint
 
 import requests
@@ -109,11 +109,11 @@ def main():
         if soup.title.string == "Create new application":
             bilgi(LANG['NEW_APP'])
             hashh = soup.find("input", {"name": "hash"}).get("value")
-            app_title = soru("APPın adı nə olsun? (Avtomatik yaratmağ üçün enter düyməsinə basın): ")
+            app_title = soru("APPın adı ne olsun? (Otomatik oluşturmak için enter tuşuna basın): ")
             if app_title == '':
                 app_title = choice(["as", "ase", "asen", "madelineproto", "telethon", "pyrogram"]) + choice(["", "-", "+", " "]) + choice(["user", "bot", "vue", "jsx", "python", "php"]) + choice([str(randint(10000, 99999)), ""])
             
-            app_shortname = soru("APPın qısa adı nə olsun? (Avtomatik yaratmağ üçün enter düyməsinə basın) \[5-32 karakter\]: ")
+            app_shortname = soru("APPın kısa adı ne olsun? (Otomatik Oluşturmak için enter tuşuna basın) \[5-32 karakter\]: ")
             if app_shortname == '':
                 app_shortname = choice(["as", "ase", "asen", "madelineproto", "telethon", "pyrogram"]) + choice(["", "-", "+", " "]) + choice(["user", "bot", "vue", "jsx", "python", "php"]) + choice([str(randint(10000, 99999)), ""])
             
@@ -163,5 +163,5 @@ def main():
             hata(LANG['ERROR'])
             exit(1)
     else:
-        hata("(!) Bilinməyən bir seçim.")
+        hata("(!) Bilinmeyen bir seçim.")
         exit(1)
