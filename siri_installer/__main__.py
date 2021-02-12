@@ -167,7 +167,7 @@ if __name__ == "__main__":
     if Sonra == True:
         BotLog = False
         Cevap = ""
-        while not Cevap == "3":
+        while not Cevap == "4":
             if Cevap == "1":
                 bilgi(LANG['OPENING_BOTLOG'])
 
@@ -177,15 +177,17 @@ if __name__ == "__main__":
 
                 basarili(LANG['OPENED_BOTLOG'])
                 BotLog = True
-            elif Cevap == "2":
+            elif Cevap == "3":
                 if BotLog:
                     config['LOGSPAMMER'] = "True"
                     basarili(LANG['SUCCESS_LOG'])
                 else:
                     hata(LANG['NEED_BOTLOG'])
-         
+            elif Cevap == "2":
+                config['OTOMATIK_KATILMA'] = "False"
+                basarili(LANG['SUCCESS_SUP'])
             
-            bilgi(f"\[1] {LANG['BOTLOG']}\n[2] {LANG['NO_LOG']}\n\[3] {LANG['CLOSE']}")
+            bilgi(f"\[1] {LANG['BOTLOG']}\n\[2] {LANG['NO_SUP']}\n\[3] {LANG['NO_LOG']}\n\[4] {LANG['CLOSE']}")
             
-            Cevap = Prompt.ask(f"[bold yellow]{LANG['WHAT_YOU_WANT']}[/]", choices=["1", "2", "3"], default="3")
-        basarili("Tamamlandı, Yardıma ihtiyacınız olursa t.me/SiriUserBot!")
+            Cevap = Prompt.ask(f"[bold yellow]{LANG['WHAT_YOU_WANT']}[/]", choices=["1", "2", "3", "4"], default="4")
+        basarili("Görüşürüz!")
