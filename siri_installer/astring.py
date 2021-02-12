@@ -15,7 +15,7 @@ from telethon.network import ConnectionTcpAbridged
 from telethon.utils import get_display_name
 from telethon.sessions import StringSession
 from rich.prompt import Prompt
-from language import LANG
+from .language import LANG
 from random import choice, randint
 
 import requests
