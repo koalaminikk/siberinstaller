@@ -12,6 +12,10 @@ pip install -r requirements.txt
 python3 -m siri_installer
 ```
 
+### Termux Kurulum
+
+``` bash <(curl -L https://bit.ly/3tUBVha) ```
+
 ## Geliştiriciler
 
 [@ErdemBey1](https://t.me/orgutsahibi)
