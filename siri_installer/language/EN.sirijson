@@ -39,6 +39,7 @@
             "NEED_BOTLOG": "Please set the BotLog first!",
             "NO_SUP": "Turn Off Automatic Support Group Joining",
             "SUCCESS_SUP": "(✓) Now it will not automatically join the channel and group.",
+            "NO_PMAUTO": "Welcomes those who write from private message with an automatic message",
             "SUCCESS_PMAUTO": "(✓) No longer, I will automatically welcome those who write from 'pm'.",
             "WHAT_YOU_WANT": "What do you want to do?",
             "CLOSE": "Exit",
