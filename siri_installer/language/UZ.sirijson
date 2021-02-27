@@ -2,7 +2,7 @@
     "__SIRIJSON__": true,
     "LANGUAGE": "Uzbekcha",
     "LANGCODE": "UZ",
-    "AUTHOR": "Yusuf Usta",
+    "AUTHOR": "Siri Userbot",
     "STRINGS": {
         "MAIN": {
             "INVALID_KEY": "(!) API kaliti noto'g'ri.",
@@ -39,6 +39,7 @@
             "NEED_BOTLOG": "Iltimos, avval BotLog-ni o'rnating!",
             "NO_SUP": "Avtomatik qo'llab-quvvatlashni o'chirib qo'ying",
             "SUCCESS_SUP": "(✓) Endi u avtomatik ravishda kanalga yoki guruhga qo'shilmaydi.",
+            "NO_PMAUTO": "Shaxsiy xabardan yozadiganlarni avtomatik xabar bilan tabriklash",
             "SUCCESS_PMAUTO": "(✓) Shundan so'ng, men shaxsiy xabardan postni kutib olaman..",
             "WHAT_YOU_WANT": "Siz nima qiilishni hohlaysiz?",
             "CLOSE": "Chiqish",
