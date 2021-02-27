@@ -39,6 +39,7 @@
             "NEED_BOTLOG": "Zəhmət olmasa ilk öncə Botlog-u hazırlayın",
             "NO_SUP": "Avtomatik Supporta Qoşulmağı Bağlayın",
             "SUCCESS_SUP": "(✓) Artıq avtomatik olaraq kanallara və qruplara qoşulmayacağsınız.",
+            "NO_PMAUTO": "Xüsusi mesajdan yazanları avtomatik mesajla salamlamaq",
             "SUCCESS_PMAUTO": "(✓) Artıq şəxsi mesaj yazanlar üçün avtomatik mesaj göndərəcəm.",
             "WHAT_YOU_WANT": "Nə etmək istəyirsiniz?",
             "CLOSE": "Çıx",
