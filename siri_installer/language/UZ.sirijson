@@ -39,6 +39,7 @@
             "NEED_BOTLOG": "Iltimos, avval BotLog-ni o'rnating!",
             "NO_SUP": "Avtomatik qo'llab-quvvatlashni o'chirib qo'ying",
             "SUCCESS_SUP": "(✓) Endi u avtomatik ravishda kanalga yoki guruhga qo'shilmaydi.",
+            "SUCCESS_PMAUTO": "(✓) Shundan so'ng, men shaxsiy xabardan postni kutib olaman..",
             "WHAT_YOU_WANT": "Siz nima qiilishni hohlaysiz?",
             "CLOSE": "Chiqish",
             "YES": "Ha",
