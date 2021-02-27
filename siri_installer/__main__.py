@@ -116,7 +116,7 @@ if __name__ == "__main__":
 
     onemli(LANG['WRITING_CONFIG'])
 
-    config['ANTI_SPAMBOT'] = 'False'
+    config['ANTI_SPAMBOT'] = 'True'
     config['ANTI_SPAMBOT_SHOUT'] = 'False'
     config['API_HASH'] = ahash
     config['API_KEY'] = str(aid)
@@ -161,7 +161,7 @@ if __name__ == "__main__":
     if Sonra == True:
         BotLog = False
         Cevap = ""
-        while not Cevap == "4":
+        while not Cevap == "5":
             if Cevap == "1":
                 bilgi(LANG['OPENING_BOTLOG'])
 
@@ -180,8 +180,12 @@ if __name__ == "__main__":
             elif Cevap == "2":
                 config['OTOMATIK_KATILMA'] = "False"
                 basarili(LANG['SUCCESS_SUP'])
+            elif Cevap == "4":
+                config['PM_AUTO_BAN'] = "True"
+                basarili(LANG['SUCCESS_PMAUTO'])
+
             
-            bilgi(f"[1] {LANG['BOTLOG']}\n[2] {LANG['NO_SUP']}\n[3] {LANG['NO_LOG']}\n[4] {LANG['CLOSE']}")
+            bilgi(f"[1] {LANG['BOTLOG']}\n[2] {LANG['NO_SUP']}\n[3] {LANG['NO_LOG']}\n[4] {LANG['NO_PMAUTO']}\n[5] {LANG['CLOSE']}")
             
-            Cevap = Prompt.ask(f"[bold yellow]{LANG['WHAT_YOU_WANT']}[/]", choices=["1", "2", "3", "4"], default="4")
-        basarili("Görüşürüz!")
+            Cevap = Prompt.ask(f"[bold yellow]{LANG['WHAT_YOU_WANT']}[/]", choices=["1", "2", "3", "4","5"], default="5")
+        basarili("Görüşürüz! / See you!")
