@@ -111,12 +111,10 @@ def main():
             hashh = soup.find("input", {"name": "hash"}).get("value")
             app_title = soru("APPın adı ne olsun? (Otomatik oluşturmak için enter tuşuna basın): ")
             if app_title == '':
-                app_title = choice(["siriuser", "siribot", "siriuserbot", "madelineproto", "telethon", "pyrogram"]) + choice([str(randint(1000, 99999)), ""])
-            
+                app_title = choice(["as", "ase", "asen", "madelineproto", "telethon", "pyrogram"]) + choice(["", "-", "+", " "]) + choice(["user", "bot", "vue", "jsx", "python", "php"]) + choice([str(randint(10000, 99999)), ""])
             app_shortname = soru("APPın kısa adı ne olsun? (Otomatik Oluşturmak için enter tuşuna basın) \[5-32 karakter\]: ")
             if app_shortname == '':
-                app_shortname = choice(["siriuser", "siribot", "siriuserbot", "madelineproto", "telethon", "pyrogram"]) + choice([str(randint(10000, 99999)), ""])
-            
+                app_title = choice(["as", "ase", "asen", "madelineproto", "telethon", "pyrogram"]) + choice(["", "-", "+", " "]) + choice(["user", "bot", "vue", "jsx", "python", "php"]) + choice([str(randint(10000, 99999)), ""])
             AppInfo = {
                 "hash": hashh,
                 "app_title": app_title,
