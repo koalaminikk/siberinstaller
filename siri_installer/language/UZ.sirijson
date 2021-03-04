@@ -44,7 +44,7 @@
             "WHAT_YOU_WANT": "Siz nima qiilishni hohlaysiz?",
             "NO_DEFAULTNAME": "Bota isminizi söyleyin!",
             "WHAT_IS_YOUR_NAME": "(?) Ismingiz nima?",
-            "SUCCESS_DEFAULTNAME": f"(✓) {whatisyourname} whg bilan tanishganimdan xursandman!",
+            "SUCCESS_DEFAULTNAME": "(✓) Whg bilan tanishganimdan xursandman!",
             "CLOSE": "Chiqish",
             "SEEYOU": "Ko'rishguncha!",
             "YES": "Ha",
