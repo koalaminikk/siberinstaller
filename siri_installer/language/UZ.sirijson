@@ -43,6 +43,7 @@
             "SUCCESS_PMAUTO": "(✓) Shundan so'ng, men shaxsiy xabardan postni kutib olaman..",
             "WHAT_YOU_WANT": "Siz nima qiilishni hohlaysiz?",
             "WHAT_IS_YOUR_NAME": "(?) Ismingiz nima?",
+            "SUCCESS_DEFAULTNAME": f"(✓) {whatisyourname} whg bilan tanishganimdan xursandman!",
             "CLOSE": "Chiqish",
             "SEEYOU": "Ko'rishguncha!",
             "YES": "Ha",
