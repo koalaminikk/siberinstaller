@@ -42,6 +42,7 @@
             "NO_PMAUTO": "Özel mesajdan yazanlara otomatik mesaj ile karşılar. Bu mesajı değiştirebilirsiniz.",
             "SUCCESS_PMAUTO": "(✓) Artık özelden yazanları bir bot mesajı ile karşılayacağım.",
             "WHAT_YOU_WANT": "Ne yapmak istiyorsunuz?",
+            "NO_DEFAULTNAME": "Bota isminizi söyleyin!",
             "WHAT_IS_YOUR_NAME": "(?) İsminiz Nedir?",
             "SUCCESS_DEFAULTNAME": f"(✓) Seninle tanışmak güzel {whatisyourname} !",
             "CLOSE": "Çık",
