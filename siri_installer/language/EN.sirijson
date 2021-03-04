@@ -42,6 +42,7 @@
             "NO_PMAUTO": "Welcomes those who write from private message with an automatic message",
             "SUCCESS_PMAUTO": "(✓) No longer, I will automatically welcome those who write from 'pm'.",
             "WHAT_YOU_WANT": "What do you want to do?",
+            "NO_DEFAULTNAME": "Tell the bot your name!",
             "WHAT_IS_YOUR_NAME": "(?) What is your name?",
             "SUCCESS_DEFAULTNAME": f"(✓) Nice to meet you {whatisyourname} !",
             "CLOSE": "Exit",
