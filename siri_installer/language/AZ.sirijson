@@ -42,6 +42,7 @@
             "NO_PMAUTO": "Xüsusi mesajdan yazanları avtomatik mesajla salamlamaq",
             "SUCCESS_PMAUTO": "(✓) Artıq şəxsi mesaj yazanlar üçün avtomatik mesaj göndərəcəm.",
             "WHAT_YOU_WANT": "Nə etmək istəyirsiniz?",
+            "NO_DEFAULTNAME": "Siriye adınızı deyin!",
             "WHAT_IS_YOUR_NAME": "Adın nədir?",
             "SUCCESS_DEFAULTNAME": f"(✓) Tanış olmaqdan xoşbəxtəm {whatisyourname} !",
             "CLOSE": "Çıx",
