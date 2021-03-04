@@ -116,8 +116,8 @@ if __name__ == "__main__":
 
     onemli(LANG['WRITING_CONFIG'])
 
-    config['ANTI_SPAMBOT'] = 'True'
-    config['ANTI_SPAMBOT_SHOUT'] = 'False'
+    config['ANTI_SPAMBOT'] = 'False'
+    config['ANTI_SPAMBOT_SHOUT'] = 'True'
     config['API_HASH'] = ahash
     config['API_KEY'] = str(aid)
     config['BOTLOG'] = "False"
@@ -125,7 +125,8 @@ if __name__ == "__main__":
     config['CLEAN_WELCOME'] = "True"
     config['CONSOLE_LOGGER_VERBOSE'] = "False"
     config['COUNTRY'] = COUNTRY
-    config['DEFAULT_BIO'] = "@SiriUserBot"
+    config['DEFAULT_BIO'] = "✨ @SiriUserBot"
+    config['DEFAULT_NAME'] = "Sir"
     config['GALERI_SURE'] = "60"
     config['CHROME_DRIVER'] = "/usr/sbin/chromedriver"
     config['GOOGLE_CHROME_BIN'] = "/usr/sbin/chromium"
@@ -161,7 +162,7 @@ if __name__ == "__main__":
     if Sonra == True:
         BotLog = False
         Cevap = ""
-        while not Cevap == "5":
+        while not Cevap == "6":
             if Cevap == "1":
                 bilgi(LANG['OPENING_BOTLOG'])
 
@@ -183,9 +184,16 @@ if __name__ == "__main__":
             elif Cevap == "4":
                 config['PM_AUTO_BAN'] = "True"
                 basarili(LANG['SUCCESS_PMAUTO'])
+            elif Cevap == "5":
+                whatisyourname = str(soru(LANG['WHAT_IS_YOUR_NAME']))
+                config['DEFAULT_NAME'] = whatisyourname
+                basarili("LANG['SUCCESS_DEFAULTNAME'])
+
+                
+
 
             
-            bilgi(f"[1] {LANG['BOTLOG']}\n[2] {LANG['NO_SUP']}\n[3] {LANG['NO_LOG']}\n[4] {LANG['NO_PMAUTO']}\n[5] {LANG['CLOSE']}")
+            bilgi(f"[1] {LANG['BOTLOG']}\n[2] {LANG['NO_SUP']}\n[3] {LANG['NO_LOG']}\n[4] {LANG['NO_PMAUTO']}\n[5] {LANG['NO_DEFAULTNAME']}\n[6] {LANG['CLOSE']}")
             
-            Cevap = Prompt.ask(f"[bold yellow]{LANG['WHAT_YOU_WANT']}[/]", choices=["1", "2", "3", "4","5"], default="5")
-        basarili("Görüşürüz! / See you!")
+            Cevap = Prompt.ask(f"[bold yellow]{LANG['WHAT_YOU_WANT']}[/]", choices=["1", "2", "3", "4", "5", "6"], default="6")
+        basarili(f"{LANG['SEEYOU']")
