@@ -43,7 +43,8 @@
             "SUCCESS_PMAUTO": "(✓) Artıq şəxsi mesaj yazanlar üçün avtomatik mesaj göndərəcəm.",
             "WHAT_YOU_WANT": "Nə etmək istəyirsiniz?",
             "CLOSE": "Çıx",
-            "YES": "Bəli",
+            "YES": "Evet",
+            "SEEYOU": "Görüşənə qədər!",
             "NO": "Xeyr"
         },
         "ASTRING": {
