@@ -187,7 +187,7 @@ if __name__ == "__main__":
             elif Cevap == "5":
                 whatisyourname = str(soru(LANG['WHAT_IS_YOUR_NAME']))
                 config['DEFAULT_NAME'] = whatisyourname
-                basarili("LANG['SUCCESS_DEFAULTNAME'])
+                basarili(LANG['SUCCESS_DEFAULTNAME'])
 
                 
 
