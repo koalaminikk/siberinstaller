@@ -135,6 +135,7 @@ if __name__ == "__main__":
     config['STRING_SESSION'] = stri
     config['HEROKU_MEMEZ'] = "True"
     config['LOGSPAMMER'] = "False"
+    config['BLACKLIST_CHAT'] = "False"
     config['PM_AUTO_BAN'] = "False"
     config['PM_AUTO_BAN_LIMIT'] = "4"
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
