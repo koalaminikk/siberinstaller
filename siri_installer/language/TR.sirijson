@@ -55,6 +55,7 @@
             "CONNECTING": "(i) Telegramın Sunucularına Bağlanılıyor...",
             "RETRYING": "(!) Bağlanılırken bir hata oluştu. Yeniden deneniyor...",
             "PHONE_NUMBER": "(?) Telefon Numaranız (Örnek: +90xxxxxxxxxx): ",
+            "INVALID_FORMAT": "(!) Lütfen telefon numaranızın başına + koyarak girin. Örnek: +90xxxxxxxxxx",
             "INVALID_NUMBER": "(!) Geçersiz Bir Numara Girdiniz Örnekte Gibi Giriniz. Örnek: +90xxxxxxxxxx",
             "CODE": "(?) Telegram'dan Gelen Kodu Yazınız: ",
             "INVALID_CODE": "(!) Kodu Yanlış Yazdınız. Lütfen Tekrar Deneyiniz. [Fazla Deneme Yapmak Ban Yemenize Neden Olur]",
