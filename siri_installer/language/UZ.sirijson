@@ -54,6 +54,7 @@
             "CONNECTING": "(i) Telegram serverlariga ulanish...",
             "RETRYING": "(!) Ulanish paytida xatolik yuz berdi. Qayta urinilmoqda...",
             "PHONE_NUMBER": "(?) Sizning telefon raqamingiz (Masalan: + 998xxxxxxxxx): ",
+            "INVALID_FORMAT": "(!) Iltimos, telefon raqamingizni xalqaro formatda kiriting.. Masalan: +998xxxxxxxxxx",
             "INVALID_NUMBER": "(?) Sizning telefon raqamingiz. Masalan: +998xxxxxxxxx",
             "CODE": "(?) Kodni Telegramdan yozing: ",
             "INVALID_CODE": "(!) Siz Kodni noto'g'ri yozdingiz. Iltimos, yana bir bor urinib ko'ring. [Tajriba sizni taqiqlaydi]",
