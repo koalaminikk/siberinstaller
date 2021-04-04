@@ -54,6 +54,7 @@
             "CONNECTING": "(i) Telegram Serverlərinə Qoşulur...",
             "RETRYING": "(!) Əlaqə yaradılarkən bir səhv baş verdi. Yenidən cəhd edilir...",
             "PHONE_NUMBER": "(?) Telefon Nömrəniz (Məsələn: +994xxxxxxxxx): ",
+            "INVALID_FORMAT": "(!) Xahiş edirəm telefon nömrənizi beynəlxalq formatda daxil edin. Nümunə: +994xxxxxxxxx",
             "INVALID_NUMBER": "(!) Səhf Bir Nömrə Yazmısınız Zəhmət olmasa Nümunədə Göstərilən Kimi Yazın. Nümunə:+994xxxxxxxxx",
             "CODE": "(?) Telegram-dan Gələn Kodu Yazın:",
             "INVALID_CODE": "(!) Kodu Səhf Yazdınız. Xahiş edirik yenidən cəhd edin. [Bir Neçə Dəfə Səhf Yazdıqdan Sonra Bloklana Bilərsiniz]",
