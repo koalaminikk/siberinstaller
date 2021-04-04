@@ -45,7 +45,13 @@ class InteractiveTelegramClient(TelegramClient):
 
         if not loop.run_until_complete(self.is_user_authorized()):
             if telefon == None:
-               user_phone = soru(LANG['PHONE_NUMBER'])
+               hh = 0
+               while hh<1:
+                   user_phone = soru(LANG['PHONE_NUMBER'])
+                   if user_phone.startswith("+"):
+                       hh+=1
+                   else:
+                       hata(LANG['INVALID_FORMAT'])
             else:
                user_phone = telefon
             try:
