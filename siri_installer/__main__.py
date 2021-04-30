@@ -125,7 +125,7 @@ if __name__ == "__main__":
     config['CLEAN_WELCOME'] = "True"
     config['CONSOLE_LOGGER_VERBOSE'] = "False"
     config['COUNTRY'] = COUNTRY
-    config['DEFAULT_BIO'] = "✨ @SiriUserBot"
+    config['DEFAULT_BIO'] = "✨ @SiberUserBot"
     config['DEFAULT_NAME'] = "Sir"
     config['GALERI_SURE'] = "60"
     config['CHROME_DRIVER'] = "/usr/sbin/chromedriver"
